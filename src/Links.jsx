@@ -22,7 +22,7 @@ function Links() {
     return (
         <div className="flex flex-col items-center justify-center gap-10">
             <button
-                className="bg-black text-white px-24 py-5 rounded-lg flex gap-8 text-center items-center justify-center"
+                className="bg-black text-white px-24 py-3 rounded-lg flex gap-8 text-center items-center justify-center active:translate-y-0.5"
                 onClick={() => handleClick("x")}
             >
                 <img src={x} alt="Twitter / X" className="w-5" />
@@ -30,7 +30,7 @@ function Links() {
                 <img src={x} alt="Twitter / X" className="w-5" />
             </button>
             <button
-                className="bg-gradient-to-r from-[#a87b00] to-[#DD2A7B] text-white px-14 py-5 rounded-lg flex gap-1 text-center items-center justify-center"
+                className="bg-gradient-to-r from-[#a87b00] to-[#DD2A7B] text-white px-14 py-1 rounded-lg flex gap-1 text-center items-center justify-center active:translate-y-0.5"
                 onClick={() => handleClick("instagram")}
             >
                 <img src={instagram} alt="Instagram" className="w-14" />
@@ -38,7 +38,7 @@ function Links() {
                 <img src={instagram} alt="Instagram" className="w-14" />
             </button>
             <button
-                className="bg-gradient-to-r from-purple-950 to-indigo-900 text-white px-24 py-5 rounded-lg flex gap-2 text-center items-center justify-center"
+                className="bg-gradient-to-r from-purple-950 to-indigo-900 text-white px-24 py-3 rounded-lg flex gap-2 text-center items-center justify-center active:translate-y-0.5"
                 onClick={() => handleClick("discord")}
             >
                 <img src={discord} alt="Discord" className="w-5" />
@@ -46,7 +46,7 @@ function Links() {
                 <img src={discord} alt="Discord" className="w-5" />
             </button>
             <button
-                className="bg-white text-black px-24 py-5 rounded-lg flex gap-2 text-center items-center justify-center"
+                className="bg-white text-black px-24 py-2.5 rounded-lg flex gap-2 text-center items-center justify-center active:translate-y-0.5"
                 onClick={() => handleClick("github")}
             >
                 <img src={github} alt="Github" className="w-5" />
