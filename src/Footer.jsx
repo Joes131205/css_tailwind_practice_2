@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <div>
-            <p>Made with React</p>
-            <p>Source Code: </p>
+        <div className="text-center">
+            <p>Made with React & Tailwind CSS</p>
+            <p>Source Code</p>
         </div>
     );
 }
