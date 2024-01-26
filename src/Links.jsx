@@ -27,7 +27,7 @@ function Links() {
         }
     }
     return (
-        <div className="flex flex-col items-center justify-center gap-10">
+        <div className="flex flex-col items-center justify-center gap-6">
             <button
                 className="bg-black text-white px-16 sm:px-24 py-3 rounded-lg flex gap-8 text-center items-center justify-center active:translate-y-0.5 hover:scale-105 hover:bg-gray-950 transition font-bold"
                 onClick={() => handleClick("x")}
